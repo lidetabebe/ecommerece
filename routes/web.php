@@ -19,6 +19,8 @@ Route::get('/', function ()
 });
 Route::get('/products/register', [ProductsController::class,'register']);
 Route::Post('/products.register', [ProductsController::class,'store']);
+//Route::post('register',[ProductsController::class,'register']);
+//Route::post('create','ProductsController@insert');
 
 
 
