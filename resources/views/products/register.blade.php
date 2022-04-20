@@ -15,7 +15,7 @@
 <form action = "/store" method = "post" class="form-group" style="width:70%; margin-left:15%;" action="/action_page.php">
 
   <label for="fname">Id:</label><br>
-  <input type="text" id="ID1" name="Id" ><br>
+  <input type="text" id="ID2" name="Id" ><br>
   <label for="Name">Name:</label><br>
   <input type="text" id="Name" name="name" ><br>
   <label for="fname">Unit:</label><br>
