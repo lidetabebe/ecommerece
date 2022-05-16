@@ -11,5 +11,9 @@ class Catagory extends Model
     protected $fillable = [
         'name',
         ];
+    public function puroduct ()
+    {
+        return $this->hasmany(prouct::calss);
+    }
 }
 
